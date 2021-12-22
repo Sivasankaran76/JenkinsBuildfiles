@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<bean id="sentence" class="com.maven.MavenDemo.Sentence">
+<property name="sentence" value="Hii Hello"></property>
+</bean>
+<bean id="employee" class="com.maven.MavenDemo.Employee">
+<property name="emp_Name" value="notset"></property>
+<property name="emp_City" value="notset"></property>
+<property name="emp_Id" value="0"></property>
+</bean>
+</beans>
